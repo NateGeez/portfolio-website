@@ -6,6 +6,7 @@
   --visited-color: #05676e;
   --active-color: #489c79;
   --grid-color: lightgray;
+  --heading: 700;
 }
 
 
@@ -18,17 +19,17 @@ body {
 
 h1{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: var(--heading);
 }
 
 h2{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: var(--heading);
 }
 
 h3{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--heading);
 }
 
 a:hover {
